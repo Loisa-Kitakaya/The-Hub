@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&family=Overpass&family=Playfair+Display:wght@700&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,6 +35,7 @@ body {
 .nav-links {
   list-style: none;
   display: inline-flex;
+  font-family: "Overpass", sans-serif;
 }
 
 .nav-links li {
@@ -54,4 +57,41 @@ body {
 
 .nav-links_mobile {
   display: none;
+  font-family: 'Overpass', sans-serif;
+}
+
+.Home {
+  background-image: url(../img/meeting-on-shared-space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Home_caption {
+  height: 100vh;
+  text-align: center;
+  padding-top: 11rem;
+  color: whitesmoke;
+}
+
+.Home_caption h1 {
+  font-size: 120px;
+  letter-spacing: 6px;
+  font-family: "Playfair Display", serif;
+}
+
+.Home_caption h5 {
+  letter-spacing: 6px;
+  word-spacing: 10px;
+  margin-top: 1rem;
+  font-family: "Muli", sans-serif;
+}
+
+.Home_caption a {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  background-color: #21b6b6;
+  border: none;
+  color: whitesmoke;
+  text-decoration: none;
 }

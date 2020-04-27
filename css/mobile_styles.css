@@ -11,7 +11,8 @@
   display: initial;
 }
 
-.menu-btn img, .close-btn img {
+.menu-btn img,
+.close-btn img {
   height: 40px;
   width: 40px;
   margin-top: 0.5rem;
@@ -46,4 +47,12 @@
   position: fixed;
   top: 1rem;
   right: 1rem;
+}
+
+.Home_caption {
+  padding-top: 15rem;
+}
+
+.Home_caption h1 {
+  font-size: 40px;
 }
