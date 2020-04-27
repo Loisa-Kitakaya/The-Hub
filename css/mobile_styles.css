@@ -1,0 +1,44 @@
+.navigation-bar {
+  padding: 1rem;
+  width: auto;
+}
+
+.nav-links {
+  display: none;
+}
+
+.menu-btn {
+  display: initial;
+}
+
+.nav-links_mobile {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 75%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #222220;
+  text-align: center;
+  z-index: 1;
+  padding-top: 5rem;
+}
+
+.nav-links_mobile a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.nav-links_mobile a:hover {
+  color: aquamarine;
+}
+
+.close-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
