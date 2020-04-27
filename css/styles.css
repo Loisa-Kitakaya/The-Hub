@@ -17,11 +17,8 @@ body {
 }
 
 .logo {
-  /* float: left; */
   color: whitesmoke;
   cursor: pointer;
-  /* border: 2px solid whitesmoke; */
-  /* border-radius: 5px; */
 }
 
 .logo-decoration {
@@ -34,7 +31,6 @@ body {
 }
 
 .nav-links {
-  /* float: right; */
   list-style: none;
   display: inline-flex;
 }
@@ -57,5 +53,5 @@ body {
 }
 
 .nav-links_mobile {
-  visibility: hidden;
+  display: none;
 }
