@@ -11,6 +11,12 @@
   display: initial;
 }
 
+.menu-btn img, .close-btn img {
+  height: 40px;
+  width: 40px;
+  margin-top: 0.5rem;
+}
+
 .nav-links_mobile {
   visibility: visible;
   display: flex;
